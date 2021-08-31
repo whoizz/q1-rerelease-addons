@@ -21,7 +21,7 @@ app.get('/content.json', (req, res) => {
           "name": "Clan Arena (Start Script)",
           "author": "whoizz",
           "date": "2021/8/31",
-          "size": 184,
+          "size": 307876,
           "description": {
             "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Utility script to initiate the match server. Create a lobby then open the console and use 'game carena-start'.",
           },
