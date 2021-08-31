@@ -10,7 +10,7 @@ app.get('/content.json', (req, res) => {
           "date": "1998/3/26",
           "size": 6894148,
           "description": {
-            "en": "Clan Arena 1.3 Maps\nXPTO",
+            "en": "Clan Arena 1.3 Maps<br/>New Line",
           },
           "gamedir": "carena",
           "download": "carena/pak0.pak",
