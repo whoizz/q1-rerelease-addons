@@ -14,25 +14,21 @@ app.get('/content.json', (req, res) => {
           },
           "gamedir": "carena",
           "download": "carena/pak0.pak",
-          "screenshots": [
-              ""
-          ],
+          "screenshots": [],
           "id": "carena"
         },
         {
           "name": "Clan Arena (Start Script)",
           "author": "whoizz",
           "date": "2021/8/31",
-          "size": 107,
+          "size": 184,
           "description": {
-            "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Utility script to initiate the match server. Create a lobby then open the console and use 'exec startServerCA.cfg'.",
+            "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Utility script to initiate the match server. Create a lobby then open the console and use 'game carena-start'.",
           },
-          "gamedir": "",
-          "download": "scripts/startServerCA.cfg",
-          "screenshots": [
-              ""
-          ],
-          "id": "carena-script"
+          "gamedir": "carena-start",
+          "download": "carena-start/pak0.pak",
+          "screenshots": [],
+          "id": "carena-start"
         }        
       ]
     });
@@ -43,9 +39,9 @@ app.get('/carena/pak0.pak', (req, res) => {
   res.sendFile(__dirname + '/carena/pak0.pak');
 });
 
-app.get('/scripts/startServerCA.cfg', (req, res) => {
+app.get('/carena-start/pak0.pak', (req, res) => {
   res.setHeader("Content-Type", 'binary/octet-stream');
-  res.sendFile(__dirname + '/scripts/startServerCA.cfg');
+  res.sendFile(__dirname + '/carena-start/pak0.pak');
 });
 
 app.listen(PORT);
