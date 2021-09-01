@@ -8,7 +8,7 @@ app.get('/content.json', (req, res) => {
           "name": "Clan Arena (MOD)",
           "author": "Mungo",
           "date": "1998/3/26",
-          "size": 6849452,
+          "size": 6849252,
           "description": {
             "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Clan arena is like clanring or qwring for the most part. You join a server, ready up, and once everybody is set to a team, the match begins.",
           },
@@ -21,9 +21,9 @@ app.get('/content.json', (req, res) => {
           "name": "Clan Arena (Start Script)",
           "author": "whoizz",
           "date": "2021/8/31",
-          "size": 307876,
+          "size": 239184,
           "description": {
-            "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Utility script to initiate the match server. Create a lobby then open the console and use 'game carena-start'.",
+            "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Utility script to initiate the match server. Create a lobby then use F10, this should enabled Clan Arena and also the selection list in the Episodes.",
           },
           "gamedir": "carena-start",
           "download": "carena-start/pak0.pak",
