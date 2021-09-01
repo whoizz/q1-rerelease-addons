@@ -8,7 +8,7 @@ app.get('/content.json', (req, res) => {
           "name": "Clan Arena (MOD)",
           "author": "Mungo",
           "date": "1998/3/26",
-          "size": 6894148,
+          "size": 6849448,
           "description": {
             "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Clan arena is like clanring or qwring for the most part. You join a server, ready up, and once everybody is set to a team, the match begins.",
           },
