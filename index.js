@@ -21,7 +21,7 @@ app.get('/content.json', (req, res) => {
           "name": "Clan Arena (Start Script)",
           "author": "whoizz",
           "date": "2021/8/31",
-          "size": 239184,
+          "size": 239192,
           "description": {
             "en": "PlanetQuake's Clan Arena mod v1.3 for Net Quake - Utility script to initiate the match server. Create a lobby then use F10, this should enabled Clan Arena and also the selection list in the Episodes.",
           },
